@@ -1,0 +1,27 @@
+# Archivos que no deben ser versionados
+.env
+*.log
+logs/
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*~
+
+# Backups
+backup.sql
+*.backup
+n8n-backup.tar.gz
+
+# Datos locales
+local-files/*
+!local-files/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Sistema
+.env.local
+.env.production
